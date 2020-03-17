@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "blog-started-scully-kit": {
@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/markdown-splendor/css/splendor.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,8 +118,13 @@
               "devServerTarget": "blog-started-scully-kit:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "blog-started-scully-kit"
 }

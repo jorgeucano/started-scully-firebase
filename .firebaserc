@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "rxjs-like-a-boss": {
+      "hosting": {
+        "blog-started-scully-kit": [
+          "rxjs-like-a-boss"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "blog-started-scully-kit",
+      "public": "dist/blog-started-scully-kit",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
