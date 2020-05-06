@@ -1,3 +1,9 @@
+# Introduction
+
+This project is a simple example of how to use scully to prerender pages that require data from Firebase Firestore. 
+
+## NOTE: The / route is currently blank. To show the rendered content go to route /blog/page-1/
+
 # BlogStartedScullyKit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
